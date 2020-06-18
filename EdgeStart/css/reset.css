@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+.clearfix{
+    clear: box;
+}
+
+.blue{
+    color: #00f !important;
+    font-weight: bold;
+}
+
+.red{
+    color: #df0000 !important;
+    font-weight: bold;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+.clear-mar{
+    margin-right: 0;
+}
+
+/* 小模块 */
+
+.bg{
+    width: 350px;
+    height: 400px;
+    background-color: #fff;
+    position: relative;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.bg-pic{
+    width: 350px;
+    height: 200px;
+    opacity: 0.9;
+}
+
+.title{
+    text-decoration: underline;
+    color: #000;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 175px;
+    left: 20px;
+}
+
+.title:hover{
+    color: #8c8c8c;
+}
+
+h3{
+    position: absolute;
+    bottom: 70px;
+    left: 20px;
+    padding-right: 20px;
+    color: #000;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.logo{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.media-name{
+    position: absolute;
+    bottom: 19px;
+    left: 40px;
+    font-size: 14px;
+    
+}
+
+.bg:hover{
+    cursor: pointer;
+}
+
+.bg:hover h3{
+    text-decoration: underline;
+}
+
+.bg:hover .bg-pic{
+    opacity: 1;
+}

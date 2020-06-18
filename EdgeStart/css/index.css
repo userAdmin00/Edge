@@ -1,0 +1,205 @@
+@import url(reset.css);
+
+/* 广告区域 */
+#ad{
+    width: 1450px;
+    height: 223px;
+    background-color: #fff;
+    margin: 8px auto;
+    
+}
+
+#ad ul li{
+    font-size: 16px;
+    margin-right: 0.4rem;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    float: left;
+    padding-top: 20px;
+    width: 130px;
+}
+
+#ad ul li img{
+    height: 16px;
+    width: 16px;
+    margin-bottom: -3px;
+}
+
+#ad ul li a{
+    color:#2b2b2b;
+}
+
+#ad ul li a:hover{
+    text-decoration: underline;
+}
+
+#ad .ad-text{
+    color: #666;
+    font-size: 14px;
+}
+
+/* 导航栏 */
+#nav{
+    width: 1450px;
+    margin: 20px auto;
+    position: relative;
+}
+
+#nav .text{
+    height: 40px;
+    line-height: 40px;
+}
+
+#nav .text ul li{
+    margin-right: 16px;
+}
+
+#nav .text ul li.line{
+    color: #8c8c8c;
+}
+
+#nav .text ul li a{
+    font-size: 19px;
+    color: #000;
+}
+
+#nav .text ul li a.active{
+    font-weight: bold;
+}
+
+#nav .text ul li a:hover{
+    color: #005fa0;
+}
+
+#nav .text ul li a.ellipsis{
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+
+#nav .text ul li a.ellipsis:hover{
+    background-color: #fff;
+}
+
+#nav .text ul li a.active:hover{
+    color: #000;
+    cursor: default;
+}
+
+#nav .text ul li img{
+    width: 14px;
+    height: 14px;
+}
+
+#nav .text div{
+    color: #8c8c8c;
+    font-weight: bold;
+} 
+
+#nav .text div span{
+    color: #000;
+    /* font-weight: bold; */
+}
+
+#nav div .hor-line{
+    height: 3px;
+    width: 95px;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    top: 40px;
+}
+
+/* 资讯页面 */
+#info{
+    width: 1450px;
+    margin: 10px auto;
+    position: relative;
+}
+
+/* 左边图片 */
+#info div{
+    display: inline-block;
+}
+
+#info .l-info{
+    width: 700px;
+    height: 400px;
+    background: url("../images/milky-way.png");
+    position: relative;
+    opacity: 0.9;
+    margin-right: 10px;
+    
+}
+
+#info .l-info:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#info .l-info h2{
+    position: absolute;
+    bottom: 70px;
+    left: 20px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 28px;
+}
+
+#info .l-info .descri img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+}
+
+#info .l-info .descri span{
+    color: #8c8c8c;
+    position: absolute;
+    bottom: 40px;
+    left: 50px;
+}
+
+#info .l-info .circle span{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #8c8c8c;
+}
+
+#info .l-info:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+#info .l-info:hover h2{
+    text-decoration: underline;
+}
+
+#info .l-info .circle .active{
+    background-color: #fff;
+}
+
+#info .l-info .circle{
+    position: absolute;
+    bottom: 20px;
+    left: 200px;
+}
+
+#info .sports .bg-pic{
+    background-image: url(../images/sports-pic.png);
+}
+
+
+
+#info .finance{
+    margin-right: 0;
+}
+
+#info .finance .bg-pic{
+    background-image: url(../images/fi-pic.png);
+}
+
